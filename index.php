@@ -1,5 +1,5 @@
 <?php
-require_once 'MTBackup.php';
+require_once 'src/MTBackup.php';
 
 $BackupService = new \MTBackup\BackupService([
     'host'=>'localhost',
@@ -15,4 +15,4 @@ $BackupService = new \MTBackup\BackupService([
     'backup_mail'=>'buldurmert@gmail.com'
 ]);
 //
-$BackupService->backup()->write()->mail();
+//$BackupService->backup()->write()->mail();

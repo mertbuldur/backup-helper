@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MTBackup\\": "src//"
+            "MTBackup\\": "src/"
         }
     },
     "minimum-stability": "dev"
