@@ -1,4 +1,5 @@
 <?php
+
 namespace  MTBackup;
 require_once 'Mail/PHPMailer.php';
 require_once 'Mail/SMTP.php';
@@ -104,3 +105,4 @@ class BackupService
         }
     }
 }
+
