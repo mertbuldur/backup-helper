@@ -1,0 +1,16 @@
+{
+    "name": "buldurmert/mtbackup",
+    "description": "Php Database Backup Helper",
+    "authors": [{
+        "name": "Mert Buldur",
+        "email": "buldurmert@gmail.com"
+    }],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "MTBackup\\": "src//"
+        }
+    }
+}
